@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 7: screen expects a non-empty block.
-    screen mapscreen():
-                       ^
+File "game/labels/prologe/p2.rpy", line 8: expected 'comma or end of line' not found.
+    with dissolve
+    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Feb 19 16:53:18 2022
+Sun Feb 20 16:51:31 2022
