@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/labels/prologe/p2.rpy", line 8: expected 'comma or end of line' not found.
-    with dissolve
+File "game/labels/prologe/p2.rpy", line 19: expected menuitem
+    return
     ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Feb 20 16:51:31 2022
+Sun Feb 20 18:08:51 2022

@@ -8,6 +8,8 @@ screen mapscreen:
     #    auto "colegio_%s.png"
     add "colegio.png"
 
+
+
 label realidad:
     # Muestra una imagen de fondo: Aquí se usa un marcador de posición por
     # defecto. Es posible añadir un archivo en el directorio 'images' con el
@@ -31,9 +33,19 @@ label realidad:
     e "UwU" with vpunch
 
     a "Oe joputa"
-    show emilia green smile at trueleft
+    show emilia smile2 at trueleft
+
     with dissolve
 
 
     "[[I walked past a sign saying, \"Let's give it 100%%!\"]"
+    menu drink_menu:
+        "What should I do?"
+
+        "Drink coffee.":
+            "I drink the coffee, and it's good to the last drop."
+        "Drink tea.":
+            $ drank_tea = True
+            "I drink the tea, trying not to make a political statement as I do."
+
     # Finaliza el juego:
