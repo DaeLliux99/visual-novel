@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/labels/prologe/p2.rpy", line 19: expected menuitem
-    return
-    ^
+File "game/labels/map/map.rpy", line 3: u'jump' is not a keyword argument or valid child for the imagebutton statement.
+    imagebutton idle "maps/colegio.png" hover "maps/colegio_resaltado.png" focus_mask True action jump("realidad")
+                                                                                                      ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Feb 20 18:08:51 2022
+Wed Feb 23 12:30:47 2022
